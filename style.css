@@ -1,0 +1,47 @@
+html,body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+button {
+    
+    width: 105px;
+    height: 55px;
+    justify-self: first baseline;
+    margin-left: 1500px;
+    margin-bottom: 675px;
+    
+    
+}
+
+
+button:hover {
+    cursor:pointer;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80%; 
+    max-height: 100%; 
+    gap: 1px;
+    position: fixed;
+    border: 1px solid black;
+}
+
+.square {
+    flex: 1 0 calc(100% / var(--nsquares) - 2px); 
+    aspect-ratio: 1; 
+    background-color: white;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.square:hover {
+    cursor:pointer;
+    
+}
